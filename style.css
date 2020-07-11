@@ -1,0 +1,48 @@
+
+/* flex.html */
+.flex {
+    background-color: #00c7ce;
+    height: 50vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row */
+    
+}
+.flex > div {
+    background-color: #fff;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.space {
+    margin: 400px;
+}
+
+
+
+.flex2 {
+    background-color: #00c7ce;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+}
+
+.flex2 > div {
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    background-color: #fff;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.flex2 > :first-child {
+    margin-right: auto;
+}
+
+
+/* flex.html */
